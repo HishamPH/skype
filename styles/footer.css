@@ -1,0 +1,77 @@
+.more-links{
+  bottom: 72px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  background-color: #f2f2f2;
+  color: #616161;
+}
+.navigation{
+  font-size: 15px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.navigation p{
+  font-size: 11px;
+  cursor: pointer;
+}
+.navigation p:hover{
+  text-decoration: underline;
+}
+.privacy{
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+.privacy p:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.globe{
+  width: 24px;
+}
+.privacy-icon{
+  margin-right: 10px;
+  width: 33px;
+}
+.language-selector-icon{
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  content: "Hello";
+  font-size: 11px;
+  padding-left: 12px;
+}
+.other-sites{
+  display: flex;
+  justify-content: end;
+  font-size: 11px;
+  padding: 20px;
+  white-space: nowrap;
+  color: #616161;
+}
+.bottom{
+  background-color: #f2f2f2;
+  font-size: 12px;
+}
+.social-media{
+  font-size: 14px;
+}
+.social-media p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.call-hangup{ 
+  height: 20px;
+}
+.learn-more h6{
+  font-size: 14px;
+}
+.learn-more p{
+  font-size: 12px;
+}
